@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">Skyrim Calculator</string>
 
-    <!-- MainActivity -->
+    <!-- Button Constants -->
+    <string name="skillsbtn">Skills Button</string>
+    <string name="skillstag">Skills</string>
     <string name="alchemybtn">Alchemy Button</string>
     <string name="alchemytag">Alchemy</string>
-    <string name="enchantbtn">Enchanting Button</string>
-    <string name="enchanttag">Enchanting</string>
     <string name="smithingbtn">Smithing Button</string>
     <string name="smithingtag">Smithing</string>
     <dimen name="buttonDimens">128dp</dimen>
+
+    <!-- SkillsActivity -->
+    <string name="skillheader">Skills</string>
+    <string name="skill_alchemy">Alchemy Skill: </string>
+    <string name="skill_alchemyperk">  Alchemy Perk: </string>
+    <string name="skill_physicianperk">  Physician Perk: </string>
+    <string name="skill_benefactorperk">  Benefactor Perk: </string>
+    <string name="skill_poisonerperk">  Poisoner Perk: </string>
+    <string name="skill_purityperk">  Purity Perk: </string>
+    <string name="skill_smithing">Smithing Skill: </string>
+
 </resources>

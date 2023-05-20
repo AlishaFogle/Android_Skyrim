@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case "Smithing":
                 msg = "You pressed the Smithing Button.";
                 break;
-            case "Enchanting":
+            case "Skills":
                 msg = "You pressed the Enchanting Button.";
                 break;
             case "Alchemy":
