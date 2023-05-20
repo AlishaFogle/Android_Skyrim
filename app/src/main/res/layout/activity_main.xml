@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
+    android:tag="@string/skillstag"
     tools:context=".MainActivity">
 
     <ImageView
@@ -90,7 +91,7 @@
         android:background="@drawable/alchemy_128"
         android:contentDescription="@string/alchemybtn"
         android:drawablePadding="0dp"
-        android:enabled="false"
+        android:enabled="true"
         android:foreground="@drawable/alchemy_128"
         android:onClick="onClick"
         android:padding="0dp"
@@ -104,26 +105,26 @@
         android:tag="@string/alchemytag"
         app:icon="@drawable/alchemy_128"
         app:iconPadding="0dp"
-        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/btnSkills"
         app:layout_constraintTop_toBottomOf="@+id/Skrim_Splash"
         tools:ignore="RedundantDescriptionCheck" />
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/btnSkills"
         android:layout_width="@dimen/buttonDimens"
         android:layout_height="@dimen/buttonDimens"
+        android:layout_margin="0dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="0dp"
+        android:background="@drawable/skill_master"
         android:contentDescription="@string/skillsbtn"
-        android:fontFamily="@font/skyrimbooks_gaelic"
-        android:gravity="center"
+        android:enabled="true"
+        android:foreground="@drawable/skill_master"
         android:onClick="onClick"
-        android:rotation="-45"
         android:tag="@string/skillstag"
-        android:text="@string/skillstag"
-        android:textAlignment="center"
-        android:textColor="@color/material_dynamic_primary30"
-        android:textSize="48sp"
+        app:icon="@drawable/skill_master"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Skrim_Splash"
-        tools:text="@string/skillstag" />
+        tools:ignore="RedundantDescriptionCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
