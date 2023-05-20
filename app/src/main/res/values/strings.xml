@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Skyrim Calculator</string>
+
+    <!-- MainActivity -->
+    <string name="alchemybtn">Alchemy Button</string>
+    <string name="alchemytag">Alchemy</string>
+    <string name="enchantbtn">Enchanting Button</string>
+    <string name="enchanttag">Enchanting</string>
+    <string name="smithingbtn">Smithing Button</string>
+    <string name="smithingtag">Smithing</string>
+    <dimen name="buttonDimens">128dp</dimen>
 </resources>
