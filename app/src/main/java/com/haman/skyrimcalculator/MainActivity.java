@@ -1,5 +1,6 @@
 package com.haman.skyrimcalculator;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,7 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 msg = "You pressed the Smithing Button.";
                 break;
             case "Skills":
-                msg = "You pressed the Enchanting Button.";
+                Intent intent = new Intent(this, SkillsActivity.class);
+                startActivity(intent);
                 break;
             case "Alchemy":
                 msg = "You pressed the Alchemy Button.";

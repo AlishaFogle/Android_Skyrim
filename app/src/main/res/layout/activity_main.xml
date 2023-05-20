@@ -104,15 +104,16 @@
         android:tag="@string/alchemytag"
         app:icon="@drawable/alchemy_128"
         app:iconPadding="0dp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/Skrim_Splash"
-        tools:ignore="RedundantDescriptionCheck"
-        tools:layout_editor_absoluteX="128dp" />
+        tools:ignore="RedundantDescriptionCheck" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="@dimen/buttonDimens"
         android:layout_height="@dimen/buttonDimens"
         android:contentDescription="@string/skillsbtn"
+        android:fontFamily="@font/skyrimbooks_gaelic"
         android:gravity="center"
         android:onClick="onClick"
         android:rotation="-45"
